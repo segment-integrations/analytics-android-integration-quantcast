@@ -1,13 +1,6 @@
 
-Version 1.0.1 (March 15th, 2015)
+Version 1.0.0 (May 2nd, 2015)
 ==============================
-*(Supports analytics-android 4.0.+ and Amplitude 2.5.1+)*
-
-  * Updating Amplitude dependency to 2.5.1.
-
-
-Version 1.0.0 (November 26th, 2015)
-==============================
-*(Supports analytics-android 4.0.+ and Amplitude 2.2.+)*
+*(Supports analytics-android 4.0.9+ and Quantcast 1.3.1+)*
 
   * Initial Release
