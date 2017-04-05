@@ -6,6 +6,35 @@ analytics-android-integration-quantcast
 
 Quantcast integration for [analytics-android](https://github.com/segmentio/analytics-android).
 
+## Installation
+
+To install the Segment-Quantcast integration, simply add this line to your gradle file:
+
+```
+compile 'com.segment.analytics.android.integrations:quantcast:+'
+```
+
+## Usage
+
+After adding the dependency, you must register the integration with our SDK.  To do this, import the Quantcast integration:
+
+
+```
+import com.segment.analytics.android.integrations.quantcast.QuantcastIntegration;
+
+```
+
+And add the following line:
+
+```
+analytics = new Analytics.Builder(this, "write_key")
+                .use(QuantcastIntegration.FACTORY)
+                .build();
+```
+
+Please see [our documentation](https://segment.com/docs/integrations/quantcast/) for more information.
+
+
 ## License
 
 ```
