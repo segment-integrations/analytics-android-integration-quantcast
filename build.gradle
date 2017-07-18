@@ -66,5 +66,4 @@ dependencies {
   testCompile 'org.powermock:powermock-classloading-xstream:1.6.2'
 }
 
-apply from: rootProject.file('gradle/attach-jar.gradle')
 apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
